@@ -1,5 +1,5 @@
-import 'package:aitebar/core/extensions/app_theme_extension.dart';
 import 'package:flutter/material.dart';
+import '../extensions/app_theme_extension.dart';
 
 abstract class AppTheme {
   MaterialColor get primarySwatch;
@@ -25,4 +25,6 @@ abstract class AppTheme {
   InputDecorationTheme get inputDecorationTheme;
 
   TextTheme get textTheme;
+
+  ThemeData get theme;
 }
