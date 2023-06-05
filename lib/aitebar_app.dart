@@ -2,7 +2,6 @@ import 'package:aitebar/core/routes/app_routes/app_router.dart';
 import 'package:aitebar/core/routes/navigation_observer.dart';
 import 'package:aitebar/core/theme/theme_provider.dart';
 import 'package:aitebar/core/theme/theme_light.dart';
-import 'package:aitebar/core/theme/theme_dark.dart';
 import 'package:aitebar/mobile/features/auth/presentation/blocs/user/user_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
