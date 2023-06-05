@@ -77,6 +77,13 @@ class SettingsPage extends StatelessWidget {
             shape: const RoundedRectangleBorder(
                 borderRadius: BorderRadius.all(Radius.circular(8.0))),
           ),
+          SwitchListTile(
+                title: const Text('Dark Mode'),
+                value: themeProvider.isDarkMode,
+                onChanged: (value) {
+                  themeProvider.toggleTheme();
+                },
+              ),
         ],
           ),
         );
